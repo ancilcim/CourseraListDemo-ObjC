@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		1D42B9B41B53DDE700174B8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9B31B53DDE700174B8F /* main.m */; };
 		1D42B9B71B53DDE700174B8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9B61B53DDE700174B8F /* AppDelegate.m */; };
-		1D42B9BA1B53DDE700174B8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9B91B53DDE700174B8F /* ViewController.m */; };
+		1D42B9BA1B53DDE700174B8F /* CourseraListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9B91B53DDE700174B8F /* CourseraListTableViewController.m */; };
 		1D42B9BD1B53DDE700174B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9BB1B53DDE700174B8F /* Main.storyboard */; };
 		1D42B9BF1B53DDE700174B8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9BE1B53DDE700174B8F /* Images.xcassets */; };
 		1D42B9C21B53DDE700174B8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9C01B53DDE700174B8F /* LaunchScreen.xib */; };
 		1D42B9CE1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9CD1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m */; };
+		1D42B9DA1B541E0D00174B8F /* CourseListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9D81B541E0D00174B8F /* CourseListTableViewCell.m */; };
+		1D42B9DB1B541E0D00174B8F /* CourseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9D91B541E0D00174B8F /* CourseListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,17 @@
 		1D42B9B31B53DDE700174B8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D42B9B51B53DDE700174B8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D42B9B61B53DDE700174B8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D42B9B81B53DDE700174B8F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1D42B9B91B53DDE700174B8F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D42B9B81B53DDE700174B8F /* CourseraListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseraListTableViewController.h; sourceTree = "<group>"; };
+		1D42B9B91B53DDE700174B8F /* CourseraListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseraListTableViewController.m; sourceTree = "<group>"; };
 		1D42B9BC1B53DDE700174B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D42B9BE1B53DDE700174B8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1D42B9C11B53DDE700174B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1D42B9C71B53DDE700174B8F /* CourseraListDemo-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CourseraListDemo-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D42B9CC1B53DDE700174B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D42B9CD1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseraListDemo_ObjCTests.m; sourceTree = "<group>"; };
+		1D42B9D71B541E0D00174B8F /* CourseListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListTableViewCell.h; sourceTree = "<group>"; };
+		1D42B9D81B541E0D00174B8F /* CourseListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListTableViewCell.m; sourceTree = "<group>"; };
+		1D42B9D91B541E0D00174B8F /* CourseListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +88,11 @@
 			children = (
 				1D42B9B51B53DDE700174B8F /* AppDelegate.h */,
 				1D42B9B61B53DDE700174B8F /* AppDelegate.m */,
-				1D42B9B81B53DDE700174B8F /* ViewController.h */,
-				1D42B9B91B53DDE700174B8F /* ViewController.m */,
+				1D42B9B81B53DDE700174B8F /* CourseraListTableViewController.h */,
+				1D42B9B91B53DDE700174B8F /* CourseraListTableViewController.m */,
+				1D42B9D71B541E0D00174B8F /* CourseListTableViewCell.h */,
+				1D42B9D81B541E0D00174B8F /* CourseListTableViewCell.m */,
+				1D42B9D91B541E0D00174B8F /* CourseListTableViewCell.xib */,
 				1D42B9BB1B53DDE700174B8F /* Main.storyboard */,
 				1D42B9BE1B53DDE700174B8F /* Images.xcassets */,
 				1D42B9C01B53DDE700174B8F /* LaunchScreen.xib */,
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D42B9DB1B541E0D00174B8F /* CourseListTableViewCell.xib in Resources */,
 				1D42B9BD1B53DDE700174B8F /* Main.storyboard in Resources */,
 				1D42B9C21B53DDE700174B8F /* LaunchScreen.xib in Resources */,
 				1D42B9BF1B53DDE700174B8F /* Images.xcassets in Resources */,
@@ -219,7 +228,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D42B9BA1B53DDE700174B8F /* ViewController.m in Sources */,
+				1D42B9DA1B541E0D00174B8F /* CourseListTableViewCell.m in Sources */,
+				1D42B9BA1B53DDE700174B8F /* CourseraListTableViewController.m in Sources */,
 				1D42B9B71B53DDE700174B8F /* AppDelegate.m in Sources */,
 				1D42B9B41B53DDE700174B8F /* main.m in Sources */,
 			);
