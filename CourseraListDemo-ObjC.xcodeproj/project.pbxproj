@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D42B9B41B53DDE700174B8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9B31B53DDE700174B8F /* main.m */; };
+		1D42B9B71B53DDE700174B8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9B61B53DDE700174B8F /* AppDelegate.m */; };
+		1D42B9BA1B53DDE700174B8F /* CourseraListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9B91B53DDE700174B8F /* CourseraListTableViewController.m */; };
+		1D42B9BD1B53DDE700174B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9BB1B53DDE700174B8F /* Main.storyboard */; };
+		1D42B9BF1B53DDE700174B8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9BE1B53DDE700174B8F /* Images.xcassets */; };
+		1D42B9C21B53DDE700174B8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9C01B53DDE700174B8F /* LaunchScreen.xib */; };
+		1D42B9CE1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9CD1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m */; };
+		1D42B9DA1B541E0D00174B8F /* CourseListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D42B9D81B541E0D00174B8F /* CourseListTableViewCell.m */; };
+		1D42B9DB1B541E0D00174B8F /* CourseListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D42B9D91B541E0D00174B8F /* CourseListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D42B9C81B53DDE700174B8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D42B9A61B53DDE700174B8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D42B9AD1B53DDE700174B8F;
+			remoteInfo = "CourseraListDemo-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D42B9AE1B53DDE700174B8F /* CourseraListDemo-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CourseraListDemo-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D42B9B21B53DDE700174B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D42B9B31B53DDE700174B8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D42B9B51B53DDE700174B8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D42B9B61B53DDE700174B8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D42B9B81B53DDE700174B8F /* CourseraListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseraListTableViewController.h; sourceTree = "<group>"; };
+		1D42B9B91B53DDE700174B8F /* CourseraListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseraListTableViewController.m; sourceTree = "<group>"; };
+		1D42B9BC1B53DDE700174B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D42B9BE1B53DDE700174B8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D42B9C11B53DDE700174B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1D42B9C71B53DDE700174B8F /* CourseraListDemo-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CourseraListDemo-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D42B9CC1B53DDE700174B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D42B9CD1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseraListDemo_ObjCTests.m; sourceTree = "<group>"; };
+		1D42B9D71B541E0D00174B8F /* CourseListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListTableViewCell.h; sourceTree = "<group>"; };
+		1D42B9D81B541E0D00174B8F /* CourseListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListTableViewCell.m; sourceTree = "<group>"; };
+		1D42B9D91B541E0D00174B8F /* CourseListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D42B9AB1B53DDE700174B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D42B9C41B53DDE700174B8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D42B9A51B53DDE700174B8F = {
+			isa = PBXGroup;
+			children = (
+				1D42B9B01B53DDE700174B8F /* CourseraListDemo-ObjC */,
+				1D42B9CA1B53DDE700174B8F /* CourseraListDemo-ObjCTests */,
+				1D42B9AF1B53DDE700174B8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D42B9AF1B53DDE700174B8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D42B9AE1B53DDE700174B8F /* CourseraListDemo-ObjC.app */,
+				1D42B9C71B53DDE700174B8F /* CourseraListDemo-ObjCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D42B9B01B53DDE700174B8F /* CourseraListDemo-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				1D42B9B51B53DDE700174B8F /* AppDelegate.h */,
+				1D42B9B61B53DDE700174B8F /* AppDelegate.m */,
+				1D42B9B81B53DDE700174B8F /* CourseraListTableViewController.h */,
+				1D42B9B91B53DDE700174B8F /* CourseraListTableViewController.m */,
+				1D42B9D71B541E0D00174B8F /* CourseListTableViewCell.h */,
+				1D42B9D81B541E0D00174B8F /* CourseListTableViewCell.m */,
+				1D42B9D91B541E0D00174B8F /* CourseListTableViewCell.xib */,
+				1D42B9BB1B53DDE700174B8F /* Main.storyboard */,
+				1D42B9BE1B53DDE700174B8F /* Images.xcassets */,
+				1D42B9C01B53DDE700174B8F /* LaunchScreen.xib */,
+				1D42B9B11B53DDE700174B8F /* Supporting Files */,
+			);
+			path = "CourseraListDemo-ObjC";
+			sourceTree = "<group>";
+		};
+		1D42B9B11B53DDE700174B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D42B9B21B53DDE700174B8F /* Info.plist */,
+				1D42B9B31B53DDE700174B8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D42B9CA1B53DDE700174B8F /* CourseraListDemo-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D42B9CD1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m */,
+				1D42B9CB1B53DDE700174B8F /* Supporting Files */,
+			);
+			path = "CourseraListDemo-ObjCTests";
+			sourceTree = "<group>";
+		};
+		1D42B9CB1B53DDE700174B8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D42B9CC1B53DDE700174B8F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D42B9AD1B53DDE700174B8F /* CourseraListDemo-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D42B9D11B53DDE700174B8F /* Build configuration list for PBXNativeTarget "CourseraListDemo-ObjC" */;
+			buildPhases = (
+				1D42B9AA1B53DDE700174B8F /* Sources */,
+				1D42B9AB1B53DDE700174B8F /* Frameworks */,
+				1D42B9AC1B53DDE700174B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CourseraListDemo-ObjC";
+			productName = "CourseraListDemo-ObjC";
+			productReference = 1D42B9AE1B53DDE700174B8F /* CourseraListDemo-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D42B9C61B53DDE700174B8F /* CourseraListDemo-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D42B9D41B53DDE700174B8F /* Build configuration list for PBXNativeTarget "CourseraListDemo-ObjCTests" */;
+			buildPhases = (
+				1D42B9C31B53DDE700174B8F /* Sources */,
+				1D42B9C41B53DDE700174B8F /* Frameworks */,
+				1D42B9C51B53DDE700174B8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D42B9C91B53DDE700174B8F /* PBXTargetDependency */,
+			);
+			name = "CourseraListDemo-ObjCTests";
+			productName = "CourseraListDemo-ObjCTests";
+			productReference = 1D42B9C71B53DDE700174B8F /* CourseraListDemo-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D42B9A61B53DDE700174B8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ancil Marshall";
+				TargetAttributes = {
+					1D42B9AD1B53DDE700174B8F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1D42B9C61B53DDE700174B8F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1D42B9AD1B53DDE700174B8F;
+					};
+				};
+			};
+			buildConfigurationList = 1D42B9A91B53DDE700174B8F /* Build configuration list for PBXProject "CourseraListDemo-ObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D42B9A51B53DDE700174B8F;
+			productRefGroup = 1D42B9AF1B53DDE700174B8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D42B9AD1B53DDE700174B8F /* CourseraListDemo-ObjC */,
+				1D42B9C61B53DDE700174B8F /* CourseraListDemo-ObjCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D42B9AC1B53DDE700174B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D42B9DB1B541E0D00174B8F /* CourseListTableViewCell.xib in Resources */,
+				1D42B9BD1B53DDE700174B8F /* Main.storyboard in Resources */,
+				1D42B9C21B53DDE700174B8F /* LaunchScreen.xib in Resources */,
+				1D42B9BF1B53DDE700174B8F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D42B9C51B53DDE700174B8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D42B9AA1B53DDE700174B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D42B9DA1B541E0D00174B8F /* CourseListTableViewCell.m in Sources */,
+				1D42B9BA1B53DDE700174B8F /* CourseraListTableViewController.m in Sources */,
+				1D42B9B71B53DDE700174B8F /* AppDelegate.m in Sources */,
+				1D42B9B41B53DDE700174B8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D42B9C31B53DDE700174B8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D42B9CE1B53DDE700174B8F /* CourseraListDemo_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D42B9C91B53DDE700174B8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D42B9AD1B53DDE700174B8F /* CourseraListDemo-ObjC */;
+			targetProxy = 1D42B9C81B53DDE700174B8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D42B9BB1B53DDE700174B8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D42B9BC1B53DDE700174B8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D42B9C01B53DDE700174B8F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D42B9C11B53DDE700174B8F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D42B9CF1B53DDE700174B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D42B9D01B53DDE700174B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D42B9D21B53DDE700174B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CourseraListDemo-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1D42B9D31B53DDE700174B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CourseraListDemo-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1D42B9D51B53DDE700174B8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CourseraListDemo-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseraListDemo-ObjC.app/CourseraListDemo-ObjC";
+			};
+			name = Debug;
+		};
+		1D42B9D61B53DDE700174B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CourseraListDemo-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CourseraListDemo-ObjC.app/CourseraListDemo-ObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D42B9A91B53DDE700174B8F /* Build configuration list for PBXProject "CourseraListDemo-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D42B9CF1B53DDE700174B8F /* Debug */,
+				1D42B9D01B53DDE700174B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D42B9D11B53DDE700174B8F /* Build configuration list for PBXNativeTarget "CourseraListDemo-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D42B9D21B53DDE700174B8F /* Debug */,
+				1D42B9D31B53DDE700174B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D42B9D41B53DDE700174B8F /* Build configuration list for PBXNativeTarget "CourseraListDemo-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D42B9D51B53DDE700174B8F /* Debug */,
+				1D42B9D61B53DDE700174B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D42B9A61B53DDE700174B8F /* Project object */;
+}
