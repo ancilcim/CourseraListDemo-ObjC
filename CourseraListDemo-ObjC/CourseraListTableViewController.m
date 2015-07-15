@@ -31,6 +31,8 @@ static NSString* const kCourseListTableViewCellIdentifier = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // FIXME: Replace NSData dataWithContentsOfURL method with NSURLSession
+    
     NSString* endpoint = @"courses";
     NSArray* queryItems = [self queryItemsForQueryNames:@[@"fields"]];
     NSURL* url = [self NSURLFromEndpoint:endpoint queryItems:queryItems];
