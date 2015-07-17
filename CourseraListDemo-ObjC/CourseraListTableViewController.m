@@ -31,6 +31,7 @@ static NSString* const kCourseListTableViewCellIdentifier = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // Should learn tests with Xcode
     // FIXME: Replace NSData dataWithContentsOfURL method with NSURLSession
     
     NSString* endpoint = @"courses";
